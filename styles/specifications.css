@@ -1,0 +1,313 @@
+.BackgroundFilter{
+    width: 548px;
+    height: 269px;
+    background-color: #ffffff;
+    border: #ffffff;
+    border-radius: 50%;
+    filter: blur(50px);
+    opacity: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul .DelListStyle{
+    padding-inline-start: 0;
+}
+
+.DroneImg2{
+    filter: opacity(48%);
+    position: absolute;
+    right: 0;
+ 
+    max-width: 582px;
+    max-height: 348px;
+    width: 100%;
+    height: 100%;
+    mask-image: radial-gradient(#ffffff, transparent)
+}
+
+.ImgAndTextAlign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+
+section ol li{
+    font-size: 16px;
+}
+
+
+section ul .DelListStyle{ 
+    width: 100%;
+}
+
+.PaddingTitle{
+    margin-left: 20%;
+}
+
+.SpecList{
+    display: flex;
+    justify-content: center;
+}
+
+.SpecImg{
+    max-width:674px; 
+    max-height:500px;
+    width: 100%;
+    height: 100%;
+}
+
+.SpecList1{
+    height: 100%;
+    background-color: #242424;
+    color: #ffffff;
+    width: auto;
+    width: 40%;
+    min-width: 289px;
+}
+
+.SpecList2{
+    height: 100%;
+    max-width: 770px;
+    width: 100%;
+    background-color: #D9D9D9;
+    color: #242424;
+}
+
+.SpecList2 ol li{
+    list-style: none;
+}
+
+ol li{
+    padding: 10px;
+    max-height: 640px;
+}
+
+.SpecList2 ol {
+    padding-inline-start: 0;
+}
+
+.ImgAndTextAlign ul{
+    min-width: 387.38px;
+}
+
+.FontSize58{
+    font-size: 58px;
+}
+
+
+@media (max-width: 561px) {
+    .Banner{
+        height: 600px;
+    }
+    .DroneImg2{
+        max-width: 324px;
+        max-height: 201px;
+        height: 100%;
+        width: 100%;
+        transform: translateY(-90%);
+    }
+
+    .BannerFilter{
+        max-width: 301px;
+        width: 100%;
+        display: block;
+    }
+
+    .PaddingTitle{
+        padding: 0;
+        margin: auto;
+        transform: translateY(50%);
+    }
+
+    h1.FontSize58{
+        font-size: 38px;
+    }
+
+    .Banner .BannerContentAlign{
+        height: unset;
+    }
+
+    .BackgroundFilter{
+        max-width: 320px;
+        max-height: 150px;
+        top: 100%;
+    }
+
+
+}
+@media(max-width: 1160px){
+
+    section ul{
+        padding-inline-start: 12px;
+        display: block;
+        margin: auto;
+    }
+
+    .DroneImg2{
+        right: auto;
+        position: unset;
+        margin: auto;
+        min-width: auto;
+        min-height: auto;
+        display: block;
+        height: 80%;
+        width: 80%;
+    }
+
+    .ImgAndTextAlign ul{
+        min-width: unset;
+        max-width: 466px;
+        width: 100%;
+        display: block;
+        margin: 25px auto 25px;
+    }
+    .ImgAndTextAlign ul li{
+        max-width: 466px;
+        width: 100%;
+    }
+
+    .Banner .BannerFilter{
+        width: unset;
+    }
+
+    .PaddingTitle{
+        margin-left:unset ;
+        padding: 10%;
+    }
+
+    .BackgroundFilter{
+        width: 400px;
+        height: 200px;
+    }
+
+    
+    .AlignButton{
+        margin: auto;
+        position: relative;
+        top: 90%;
+        bottom: 10%;
+        left: unset;
+        right: unset;
+    }
+    
+
+    .AlignButton{
+        display: block;
+    }
+
+    .Banner{
+        justify-content: center;
+    }
+
+    .ImgAndTextAlign{
+        display: block;
+        min-width: unset;
+        justify-content: center;
+    }
+
+    .SpecImg {
+        max-width: 674px;
+        max-height: 496px;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display: block;
+    }
+}
+
+@media(max-width: 647px){
+    section ol li{
+        font-size: 14px;
+        min-height: 38px;
+    }
+
+}
+
+
+@media(max-width: 712px){
+    .SpecList2{
+        min-width: 301.75px;
+        max-width: 301.75px;
+    }
+
+    .SpecList1{
+        min-width: unset;
+    }
+}
+
+@media(max-width: 830px){
+    ol li{
+        min-height: 42px;
+    }
+}
+
+@media(max-width: 556px){
+    .SpecList2{
+        min-width: unset;
+        max-width: 301.75px;
+    }
+
+    .SpecList1{
+        min-width: 194.16px;
+        max-width: 194.16px;
+    }
+
+    .ImgAndTextAlign ul{
+        margin: auto;
+        max-width: fit-content;
+    }
+
+    .ImgAndTextAlign ul {
+        margin: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        max-width: fit-content;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+
+}
+
+@media(max-width:481px){
+    section ol li{
+        font-size: 12px;
+        
+    }
+
+    .SpecList2{
+        width: 60%;
+        max-width: 301.75px;
+    }
+
+    .SpecList1{
+        width: 40%;
+        min-width: unset;
+        max-width: 194.16px;
+    }
+
+    .SpecList{
+        box-sizing: border-box;
+    }
+}
+
+@media(max-width:475px){
+    .SpecList1 ol {
+        padding-inline-start: 25px;
+    }
+
+    section ol li{
+        min-height: 48px
+    }
+    
+}

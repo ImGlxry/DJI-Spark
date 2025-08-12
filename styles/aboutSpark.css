@@ -1,0 +1,257 @@
+html{
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+.container {
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.banner{
+    height: 100vh;
+    width: auto;
+    background-image: url('../graphics/drone-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items:end;
+    display: flex;
+    position: relative;
+}
+
+.FeatureImg{
+    /*border-radius: 20px;*/
+    max-width: 510px;
+    max-height: 402px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+}
+
+.SparkVid {
+    height: calc(.5625 *80vw);
+    max-height: 540px;
+    width: 80%;
+    display: block;
+}
+
+.Go4Img{
+    max-width: 823px;
+    max-height: 403px;
+    height: 100%;
+    width: 100%;
+}
+
+.sizeImg{
+    width: 100%;
+    height: 100%;
+    max-width: 933px;
+    max-height: 434px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: auto;
+}
+
+.navButton:visited{
+    transition-duration: 2000ms;
+}
+
+.DjiLogo {
+    width: 139px;
+    height: 87px;
+    float: left;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    filter: opacity(76%);
+    display: flex;
+    align-items: center;
+}
+
+.Section2{
+    display: flex;
+    max-width: 1064px;
+    margin: auto;
+    gap: 46px;
+    justify-content: center;
+}
+
+ /*Setting the video slider container to center*/
+.Container{
+    max-width: 1142px;
+    width: 95%;
+    margin: auto;
+}
+
+/*aligning video slider and border*/
+.slider-wrapper .Videolist{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 22px;
+    margin-bottom: 25px;
+    overflow-x: auto;
+    font-size: 0;
+    
+}
+
+.slider-wrapper .Videolist::-webkit-scrollbar{
+    width: 2px;
+    height: 15px;
+    border-radius: 5px;
+}
+
+.slider-wrapper .Videolist::-webkit-scrollbar-track{
+    width: 10px;
+}
+
+.slider-wrapper .Videolist::-webkit-scrollbar-thumb {
+    background: #242424; 
+    border-radius: 5px;
+    height: 20px;
+}
+
+.list1{ /*designing the list*/
+    width: 100%;
+    background-color: #242424;
+    color: #ffffff;
+    padding: 30px;
+    float: left;
+}
+
+.list2{ /*designing the list*/
+    width: 100%;
+    background-color: #242424;
+    color: #ffffff;
+    padding: 30px;
+    float: right;
+}
+
+#List{
+    gap: 10px;
+    margin: auto;
+    font-size:16px;
+    display: flex;
+}
+
+.list ul li{
+    margin: 10px;
+    min-height: 0;
+}
+
+
+
+.Videolist iframe{
+    width: 560px;
+    height: 315px;
+}
+
+@media(max-width:1040px){
+    .Section2{
+        display: contents;
+    }
+
+    #List{
+        display: block;
+    }
+
+    .FeatureImg {
+        max-width: 573.16px;
+        display: block;
+    }
+
+    .list1 {
+        float: inherit;
+        margin: 20px auto auto auto;
+        padding: 10px;
+        max-width: fit-content;
+        width: 100%;
+        display: block;
+    }
+
+
+    .list2{
+        max-width: fit-content;
+        padding: 10px;
+        float: inherit;
+        margin: 20px auto auto auto;
+        width: 100%;
+        display: block
+    }
+}
+
+
+@media(max-width:770px){
+
+    .slider-wrapper .Videolist{
+        display: contents;
+        grid-template-columns: none;
+        gap:unset;
+        margin-bottom: 25px;
+        overflow-x: unset;
+    }
+
+
+    .Videolist iframe{
+        height: calc(.5625 *100vw);
+        width: 100%;
+        display: block;
+        margin-top: 25px; 
+        margin-bottom: 25px ;
+    }
+
+    .Container{
+        width: 100%;
+    }
+
+    .SparkVid{
+        height: calc(.5625 *100vw);
+        width: 100%;
+    }
+
+    .DjiLogo{
+        width: 114px;
+        height: 66px;
+    }
+
+
+    .Section2 .FeatureImg {
+        /* height: 60%; */
+        width: 100%;
+        margin: auto;
+        display: block;
+    }
+
+    section ul li{
+        font-size: 14px;
+    }
+
+    section ol li{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:647px){
+    body #Wrapper {
+        max-width: fit-content;
+        width: 90%;
+    }
+
+}
+
+@media(max-width:360px){
+
+    .Banner.Downbtn{
+        width: 42px;
+        height: 35px;
+    }
+
+    .DjiLogo{
+        width: 94px;
+        height: 54px;
+    }
+}

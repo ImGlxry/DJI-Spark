@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet"> <!--Linking exo font style-->
+<script src="https://kit.fontawesome.com/3ba74587f3.js" crossorigin="anonymous"></script> <!--Linking social icons for footer-->
+<title>Contact us page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles/ContactUs.css">
+<link rel="stylesheet" href="styles/main.css">
+<meta name="description" content="Purpose of this webpage is to allow the user to contact us for any inquiries">
+<meta name="keywords" content="Contact, issues">
+<!--[if lt IE 9]> <script src="scripts/html5shiv.js"> </script> <![endif] -->
+<!--
+ Author: Glory Iloba 23160144
+ Organisation: Birmingham City University
+ Copyright: Copyright 2023
+-->
+</head>
+<body>
+    <header>
+        <nav class ="navbar">
+            <ul class="navigation">
+                <li><a class="hideNavlink" href="Index.html"><img src="images/website-Logo.png" alt="Logo" class="Logo"></a></li>
+                <input type="checkbox" id="check">
+                <span class="navlinks">
+                    <li><a href="about_spark.html" >About&nbsp;Spark</a></li>
+                    <li><a href="Drone_specifications.html">Specifications</a></li>
+                    <li><a href="references.html">References</a></li>
+                    <li class="underline"><a href="contact_us.html" >Contact&nbsp;us</a></li>
+                    <label for="check" class="close-menu">Return</label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <div id="Wrapper">
+        <div class="invinsibleLayer"></div>
+        <div class="ContactForm Position">
+            <div class="Heading"> <!--Designing the heading-->
+                <hr class="HeadingLine">
+                <h1>Contact&nbsp;Us</h1>
+                <hr class="HeadingLine">
+            </div>
+
+            <table>
+                <tr class="TbHeadings">
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th>Postcode</th>
+                    <th>Company</th>
+                </tr>
+                <tr>
+                    <td data-cell="Email">Glory.Iloba@mail.bcu.ac.uk</td> 
+                    <td data-cell="Address">Millennium Point, Curzon St, Birmingham</td> 
+                    <td data-cell="Postcode">B4 7XG</td> 
+                    <td data-cell="Company">Birmingham City University</td> 
+                </tr>
+            </table>
+
+            <form>
+                <div class="details">
+                    <label class="FormLabels">Full Name <span class="Red">*</span></label>
+                    <textarea rows="1" placeholder="Enter name"></textarea>
+                    <label class="FormLabels">Email <span class="Red">*</span></label>
+                    <textarea rows="1" placeholder="Enter email"></textarea>
+                    <label class="FormLabels">Message <span class="Red">*</span></label>
+                    <textarea rows="10" placeholder="Enter Message"></textarea>
+                    <button class="sendBtn">Send</button>
+                </div>
+                <span class="imageContainer">
+                    <img src="images/contact_us_illustrationImg.png" alt="illustration image">
+                </span>
+            </form>    
+        </div>   
+    </div>
+
+    <footer>  <!--Building the footer-->
+        
+            <ul class="footerContainer">
+                <li class="CopyrightText">Copyright&nbsp;©&nbsp;2023&nbsp;DSD&nbsp;all&nbsp;rights&nbsp;reserved.</li>
+                <span class="socials">
+                    <li>Socials</li>
+                    <li><a href="#facebook"><i class="fa-brands fa-facebook-f fa-2xl"></i></a></li>
+                    <li><a href="#instagram"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+                    <li><a href="#twitter"><i class="fa-brands fa-twitter fa-2xl"></i></a></li>
+                </span>
+            </ul>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,70 @@
+body{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.invinsibleLayer{
+    height: 56px;
+    width: auto;
+}
+
+.container {
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.List {
+    min-width: auto;
+    /* width: 70%; */
+    justify-content: center;
+    font-size: 14px;
+    max-width: fit-content;
+    margin: auto;
+    box-shadow: 0px 0px 10px 0px rgba(119.25, 108.10271739130435, 108.10271739130435, 0.5);
+    padding: 15px;
+}
+
+.List li{
+    padding: 10px 0 10px 0;
+    font-size: 16px;
+}
+
+.subHeadingSize{
+    font-weight: normal;
+}
+
+.FooterLine{
+    border-top: 3px solid #000000;
+}
+
+.Position{
+    padding-top: 3%;
+}
+
+@media (max-width:610px){
+    .List li{
+        padding: 0;
+    }
+
+
+    .List{
+        width: 80%;
+    }
+
+    ul{
+        padding-inline-start: 10px;
+    }
+}
+
+@media(max-width:884px){
+    .List li{
+        font-size: 14px;
+    }
+
+    section h3{
+        font-size: 16px;
+    }
+}

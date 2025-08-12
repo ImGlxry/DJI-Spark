@@ -1,0 +1,392 @@
+.navigation2{ 
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-width: auto;
+    max-width: 255px;
+    font-size: 20px;
+    gap: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.CeoImg{
+    display: block;
+    width: 303px;
+    height: 303px;
+}
+
+.exploreAlign img{
+    width: 94px;
+    height: 93px;
+}
+
+.Banner .BannerFilter{
+    max-width: 598px;
+    height: 259px;
+}
+
+.ImgAndTextAlign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+
+.Banner .BannerTextAlign{
+    max-width: 568px;
+    height: 259px;
+    margin-left: unset;
+    display: block;
+    transform: translate(10%,15%)
+}
+.Banner .BackgroundFilter{
+    width: 548px;
+    height: 269px;
+    background-color: #ffffff;
+    border: #ffffff;
+    border-radius: 50%;
+    filter: blur(50px);
+    opacity: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -40%);
+}
+
+.FontSize58{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 58px;
+}
+
+.Banner p{
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+
+
+.BannerTextAlign .readMoreBtn{
+    width: 122px;
+    height: 38px;
+    font-size: 14px;
+}
+.BannerTextAlign .readMoreBtn{
+    width: 115px; 
+    height: 42px;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    align-content: center;
+    font-family: 'Gilgan';
+    font-weight: lighter;
+}
+
+.BannerTextAlign .readMoreBtn:hover{
+    border-width: 2px;
+    cursor: pointer;
+}
+
+.explore .readMoreBtn {
+    width: 119px;
+    height: 47px;
+    border-radius: 25px;
+    background-color: #242424;
+    color: #ffffff;
+    align-content: center;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: 'Exo', sans-serif;
+    border: solid;
+}
+
+.explore .readMoreBtn:hover{
+    cursor: pointer;
+}
+
+.ImageAlign{
+    float: right;
+}
+
+article{
+    font-family: 'Exo', sans-serif;
+}
+
+.ImageRadius a{
+    filter: drop-shadow(4px);
+}
+
+.DroneImg{
+    filter: opacity(48%);
+    max-width: 531px;
+    max-height: 339px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    mask-image: radial-gradient(#ffffff, transparent);
+}
+
+.ContentAreaSize{
+    width: 602px;
+    height: 164px;
+    min-width: 339.51px;
+}
+
+.exploreAlign p{
+    width: 281px;
+}
+
+.MobileAlign p{
+    max-width: 257.87px;
+    min-width: 257.87px;
+    min-height: 58px;
+}
+
+@media (max-width: 1227px) {
+    .Banner .BannerContentAlign {
+        display: flex;
+        align-items: center;
+        max-width: 1085px;
+        width: 100%;
+        justify-content: center;
+    }
+    .BannerContentAlign .DroneImg{
+        width: 433px;
+        height: 274px;
+        position: absolute;
+        top: 10%;
+    }
+
+    .Banner .BannerTextAlign{
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%,50%);
+        min-width: 568px;
+        min-height: 259px;
+    }
+
+    .Banner .BackgroundFilter{
+        top: 0;
+        left: 50%;
+        transform: translate(-50%,50%);
+    }
+
+}
+
+@media(max-width: 1144px){
+    .navigation2{
+        display:contents;
+        text-align:center;
+        min-width: auto;
+        max-width: 715.56px;
+    }
+
+
+    .navigation2 .exploreAlign{
+        display: flex;
+        align-items: center;
+        margin: 10px auto 10px auto;
+        gap: 30px;
+        max-width: 603.63px;
+        width: 70%;
+        padding: 10px;
+    }
+
+    .explore .readMoreBtn{
+        margin-bottom: unset;
+    }
+
+    .exploreAlign img{
+        width: 94px;
+        height: 93px;
+    }
+
+    .MobileAlign{
+        display: block;
+        margin-left: auto;
+        max-width: 603.63px;
+    }
+
+    .MobileAlign p{
+        max-width: 257.81px;
+        min-height: auto;
+        min-width: auto;
+    }
+
+}
+
+@media(max-width:600px){
+    .explore .readMoreBtn{
+        width: 87px;
+        height: 36px;
+        font-size: 12px;
+    }
+
+    .exploreAlign img {
+        width: 77px;
+        height: 76px;
+    }
+}
+
+@media(max-width:882px){
+    .BannerTextAlign p{
+        font-size: 14px;
+    }
+
+    .Banner .BannerTextAlign{
+        min-width: 400px;
+        max-width: 30px;
+    }
+    
+
+    .BannerTextAlign .readMoreBtn{
+        width: 122px;
+        height: 38px;
+        font-size: 14px;
+    }
+
+
+    .Banner .BackgroundFilter{
+        width: 400px;
+    }
+
+    .BannerContentAlign .DroneImg{
+        width: 359px;
+        height: 228px;
+        position: absolute;
+        top: 10%;
+    }
+    
+}
+
+@media(max-width: 686px){
+    .MobileAlign p {
+        max-width: 217.81px;
+        width: 100%;
+        min-width: auto;
+        font-size: 14px;
+    }
+
+    
+
+    .explore .readMoreBtn{
+        width: 87px;
+        height: 36px;
+        font-size: 12px;
+    }
+
+    .exploreAlign img {
+        width: 77px;
+        height: 76px;
+    }
+
+    .BannerContentAlign .DroneImg{
+        width: 324px;
+        height: 205px;
+    }
+
+    .Banner .FontSize18{
+        font-size: 18px;
+    }
+
+    .Banner .FontSize20{
+        font-size: 20px;
+    }
+
+    .Banner .FontSize58{
+        font-size: 58px;
+    }
+
+
+    .AlignContent img{
+        position: relative;
+        margin: auto;
+    }
+
+    .CeoImg{
+        display: block;
+        margin: auto;
+    }
+
+
+}
+
+@media(max-width:514px){
+    .navigation2 .exploreAlign{
+        max-width: fit-content;
+        width: 100%;
+    }
+    .BannerContentAlign .DroneImg{
+        width: 240px;
+        height: 148px;
+    }
+
+    .FontSize58{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 26px;
+    }
+
+    .BannerTextAlign p{
+        font-size: 12px;
+    }
+
+    .Banner .FontSize58{
+        font-size:26px;
+    }
+
+    .BannerTextAlign .readMoreBtn{
+        width: 100px;
+        height: 34px;
+    }
+
+    .Banner .BannerTextAlign{
+        min-width: auto;
+        max-width: 285px;
+        max-height: 96px;
+        width: 100%;
+        top: -8%;
+    }
+
+    .Banner .BackgroundFilter {
+        top: -17%;
+        left: 50%;
+        transform: translate(-50%,50%);
+        max-height: 234px;
+        max-width: 367px;
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+@media(max-width:778px){
+    .CeoImg {
+        width: 279px;
+        height: 279px;
+    }   
+}
+
+@media(max-width:548px){
+
+    .CeoImg {
+        width: 211px;
+        height: 211px;
+    }   
+
+}
